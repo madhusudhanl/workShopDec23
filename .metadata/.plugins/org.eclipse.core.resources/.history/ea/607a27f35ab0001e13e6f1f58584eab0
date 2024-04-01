@@ -1,0 +1,5 @@
+package inheritanceConcept;
+
+public class ParentClass {
+
+}

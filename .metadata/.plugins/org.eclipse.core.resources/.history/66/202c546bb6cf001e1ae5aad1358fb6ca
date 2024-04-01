@@ -1,0 +1,17 @@
+package Selenium4Feature.ChromeDevToolProtocol;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BasicAuthentication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriverManager.chrome().setup();
+		
+		driver.get("https://the-internet.herokuapp.com/");
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package experiment;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AmazonSearch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.chromedriver().setup();
+			
+		ChromeOptions options = new ChromeOptions();  
+		options.addArguments("start-maximized");
+		
+		ChromeDriver driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://www.amazon.in/");
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("smart watch",Keys.ENTER);
+		
+		driver.findElement(By.xpath("(//div[contains(@class, 's-title-instructions-style')])[3]")).click();
+		
+	}
+
+}

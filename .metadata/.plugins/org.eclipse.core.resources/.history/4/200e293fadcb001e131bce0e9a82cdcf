@@ -1,0 +1,8 @@
+package Selenium4Feature.ChromeDevToolProtocol;
+
+public class Snippet {
+	public static void main(String[] args) {
+		FAILED
+	}
+}
+

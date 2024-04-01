@@ -1,0 +1,31 @@
+package Selenium4Feature.ChromeDevToolProtocol;
+
+import java.util.function.Predicate;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BasicAuthentication2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriverManager.chromedriver().setup();
+
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("start-maximized");
+
+		ChromeDriver driver = new ChromeDriver(options);
+
+		driver.get("https://the-internet.herokuapp.com/");
+		
+		Predicate<URI> uriPredicate = uri->uri.gethost().contains("https://the-internet.herokuapp.com/");
+
+	}
+
+}

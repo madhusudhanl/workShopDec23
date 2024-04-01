@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Veggiekart.java&apos; to &apos;Automation/src/selenium.VeggieKartPrg&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Destination element: &apos;Automation/src/selenium.VeggieKartPrg&apos;&#x0D;&#x0A;- Original element: &apos;selenium.VeggieKartPrg.Veggiekart.java&apos;" description="Copy compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;selenium.VeggieKartPrg" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;selenium.VeggieKartPrg{Veggiekart.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1703816562324" units="1" version="1.0"/>
+</session>

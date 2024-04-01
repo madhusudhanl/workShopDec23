@@ -1,0 +1,12 @@
+package inheritanceConcept;
+
+public class ChildClass extends ParentClass {
+	
+	@Test
+	public void print() {
+		
+		increment();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package inheritanceConcept;
+
+import org.testng.annotations.Test;
+
+public class ChildClass extends ParentClass {
+
+	@Test
+	public void print() {
+		
+		// ParentClass ps = new ParentClass(3);
+		//int a = 3;
+		increment();
+				
+	}
+
+}

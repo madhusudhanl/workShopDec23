@@ -1,0 +1,20 @@
+package inheritanceConcept;
+
+import org.testng.annotations.Test;
+
+public class ChildClass extends ParentClass {
+
+	@Test
+	public void RunTest() {
+		
+//		ParentClass ps = new ParentClass();
+//		ps.dothis(); calling parent class by creating object
+		
+		dothis(); // calling using Inheritance
+		int a = 4;
+		PS2 ps2 = new PS2(4); // creating object to class and calling
+		System.out.println(ps2.increment());
+		
+	}
+
+}

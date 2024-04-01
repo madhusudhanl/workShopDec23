@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;workShopDec23.PageobjMod&apos; to &apos;DataDrivenDeom&apos;&#x0D;&#x0A;- Original project: &apos;workShopDec23&apos;&#x0D;&#x0A;- Original element: &apos;workShopDec23.PageobjMod&apos;&#x0D;&#x0A;- Renamed element: &apos;workShopDec23.DataDrivenDeom&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PageobjMod&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;workShopDec23{PageobjMod.java[PageobjMod" matchStrategy="1" name="DataDrivenDeom" qualified="false" references="true" similarDeclarations="false" stamp="1702961382660" textual="false" version="1.0"/>
+</session>

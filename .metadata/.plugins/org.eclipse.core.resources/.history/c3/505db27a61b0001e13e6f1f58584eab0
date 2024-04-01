@@ -1,0 +1,9 @@
+package inheritanceConcept;
+
+public class ParentClass {
+	
+	public void dothis()
+	{
+		System.out.println("DOTHIS from Parent class");
+	}
+}

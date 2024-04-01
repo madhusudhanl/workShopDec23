@@ -1,0 +1,14 @@
+package inheritanceConcept;
+
+import org.testng.annotations.Test;
+
+public class ChildClass  {
+
+	@Test
+	public void RunTest() {
+		
+		ParentClass ps = new ParentClass();
+		ps.dothis();
+	}
+
+}
